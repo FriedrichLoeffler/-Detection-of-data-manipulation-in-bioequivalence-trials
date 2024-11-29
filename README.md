@@ -1,5 +1,5 @@
-# Detection of data manipulation in bioequivalence trials (SaToWIB, Buster)
-Here you can find the code for the "SaToWIB routines" and the "Buster routines" according to the idea presented in Anders Fuglsang's publication "Detection of data manipulation in bioequivalence trials".
+# Detection of data manipulation in bioequivalence trials (SaToWIB)
+Here you can find the imitation of the code for the "SaToWIB routine" according to the idea presented in Anders Fuglsang's publication "Detection of data manipulation in bioequivalence trials".
 The code is written in the R programming language.
 
 Reference:  
