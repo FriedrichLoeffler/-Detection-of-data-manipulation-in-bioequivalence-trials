@@ -109,7 +109,7 @@ result3 <- result2[order(result2$Score),]                                 # sort
 
 ##########################
 ### ENTER FOLDER PATH: ###
-write.csv2(result3,"C:/Users/kuern/OneDrive/Desktop/git project/Similarity_plasma_results.csv", row.names = FALSE)
+write.csv2(result3,"C:/Users/kuern/OneDrive/Desktop/git project/Similarity plasma results.csv", row.names = FALSE)
 
 ################################################################################
 #### 5. Create dataframe "pairs" with most similar subject-pair-IDs in one column #
@@ -203,7 +203,7 @@ p1/p2/p3/p4/p5 +
   scale_x_log10() +
   plot_annotation(
     title = "Blood plasma concentration of samples with the closest values",
-    caption = "Illustration according to Fuglsang A., 2021. Detection of data manipulation in bioequivalence trials. EJPS, 156 (2021) 105595 realized by Friedrich Loeffler") &
+    caption = "Illustration based on Fuglsang A., 2021. Detection of data manipulation in bioequivalence trials. EJPS, 156 (2021) 105595 realized by Friedrich Loeffler") &
   theme(
     plot.title = element_text(size = 14, face = "bold", hjust = 0),
     plot.subtitle = element_text(size = 10),
