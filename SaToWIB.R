@@ -14,9 +14,9 @@
 
 # IMPORTANT: When pasting the path you have to change all SLASHs to BACKSLASHs!!!
 
-
 ################################################################################
 ### 2. Import libraries in R ###
+# R version 4.4.0 (2024-04-24 ucrt), "Puppy Cup"
 library(tidyverse)
 library(tidyr)
 library(dplyr)
