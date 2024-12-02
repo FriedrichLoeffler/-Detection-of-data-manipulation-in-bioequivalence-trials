@@ -28,7 +28,7 @@ library(stringr)
 
 ##########################
 ### ENTER FOLDER PATH: ###
-tb1 <- read_excel("C:/Users/kuern/OneDrive/Desktop/git project/formatted PK data.xlsx", col_types = "text") # import Excel-file.
+tb1 <- read_excel("[FOLDER PATH]/formatted PK data.xlsx", col_types = "text") # import Excel-file.
 
 
 tb1 <- type.convert(tb1, as.is = TRUE)                                    # converts the values in the tibble to numeric <dbl> ot integer <int> type.
@@ -109,7 +109,7 @@ result3 <- result2[order(result2$Score),]                                 # sort
 
 ##########################
 ### ENTER FOLDER PATH: ###
-write.csv2(result3,"C:/Users/kuern/OneDrive/Desktop/git project/Similarity plasma results.csv", row.names = FALSE)
+write.csv2(result3,"[FOLDER PATH]/Similarity plasma results.csv", row.names = FALSE)
 
 ################################################################################
 #### 5. Create dataframe "pairs" with most similar subject-pair-IDs in one column #
@@ -193,7 +193,7 @@ p5 <- ggplot(tb.subj5, aes(x = tb.subj5[, 2], y = tb.subj5[, 3], group = Subject
 
 ##########################
 ### ENTER FOLDER PATH: ###
-pdf(file = "C:/Users/kuern/OneDrive/Desktop/git project/Similarity plasma sample plots.pdf", paper = "a4", height = 11, onefile = TRUE)
+pdf(file = "[FOLDER PATH]/Similarity plasma sample plots.pdf", paper = "a4", height = 11, onefile = TRUE)
 
 ### calling the four plots and set up the layout of the page
 p1/p2/p3/p4/p5 +
